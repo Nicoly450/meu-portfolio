@@ -1,4 +1,4 @@
-/* Variáveis de Cores Mais Modernas (Aula 3) */
+
 :root {
     --cor-fundo: #f8f9fa;
     --cor-texto: #333333;
@@ -9,7 +9,6 @@
     --sombra: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Modificadores para o Tema Escuro */
 .tema-escuro {
     --cor-fundo: #121212;
     --cor-texto: #e0e0e0;
@@ -20,7 +19,7 @@
     --sombra: 0 4px 6px rgba(0,0,0,0.5);
 }
 
-/* Reset de Box Model e rolagem suave */
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +38,7 @@ body {
     transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-/* Header Fixo e Menu Flexbox (Aula 4) */
+
 header {
     background-color: var(--cor-cabecalho);
     box-shadow: var(--sombra);
@@ -94,7 +93,7 @@ header {
     transform: scale(1.05); /* Efeito de crescer levemente ao passar o mouse */
 }
 
-/* Estrutura Principal e Seções */
+
 main {
     margin-top: 80px;
     padding: 0 5%;
@@ -139,7 +138,7 @@ main {
     box-shadow: var(--sombra);
 }
 
-/* Portfólio usando CSS Grid (Aula 4) */
+
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -157,7 +156,7 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Transformação no eixo Y (Sobe o card ao passar o mouse) */
+
 .projeto-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.2);
@@ -186,7 +185,7 @@ main {
     color: #fff;
 }
 
-/* Formulário de Contato */
+
 #form-contato {
     display: flex;
     flex-direction: column;
@@ -218,7 +217,7 @@ main {
     transition: border-color 0.3s;
 }
 
-/* Efeito ao clicar no campo para digitar */
+
 .campo input:focus, .campo textarea:focus {
     outline: none;
     border-color: var(--cor-primaria);
@@ -249,7 +248,7 @@ footer {
     font-weight: bold;
 }
 
-/* ----- Responsividade / Media Queries (Aula 4) ----- */
+
 @media screen and (max-width: 768px) {
     .menu {
         flex-direction: column;
@@ -263,7 +262,7 @@ footer {
     }
 
     main {
-        /* Aumenta a margem do topo no celular para o menu não tampar o título */
+        
         margin-top: 140px; 
     }
 
