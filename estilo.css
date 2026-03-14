@@ -2,7 +2,7 @@
 :root {
     --cor-fundo: #f8f9fa;
     --cor-texto: #333333;
-    --cor-primaria: #6c63ff; /* Um tom moderno de roxo/azul */
+    --cor-primaria: #6c63ff; 
     --cor-primaria-hover: #574bde;
     --cor-cabecalho: #ffffff;
     --cor-borda: #e0e0e0;
@@ -84,13 +84,13 @@ header {
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
-    /* Transições e Transformações (Aula 3) */
+    
     transition: background-color 0.3s, transform 0.2s;
 }
 
 #btn-tema:hover {
     background-color: var(--cor-primaria-hover);
-    transform: scale(1.05); /* Efeito de crescer levemente ao passar o mouse */
+    transform: scale(1.05); 
 }
 
 
